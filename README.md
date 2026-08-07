@@ -1,0 +1,1 @@
+# moving-learning-to-job-ready-junior-soc-analyst
