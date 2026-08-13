@@ -266,5 +266,287 @@ By the end of this week, I understood how SOC analysts investigate malware, anal
 
 
 
+# Week 10 — Advanced SOC Investigations
 
+## 🎯 Goal
+
+Develop the ability to investigate complete security incidents from initial alert through analysis, containment, and documentation.
+
+## 📚 Topics Covered
+
+- End-to-end incident investigation
+- Phishing investigations
+- Credential compromise
+- Authentication log analysis
+- Endpoint investigation
+- Threat intelligence
+- MITRE ATT&CK mapping
+- Incident classification
+- Containment recommendations
+- Professional analyst notes
+
+## 🔎 Practical Investigations
+
+### 1. End-to-End Incident Investigation
+
+Practiced investigating a security alert from initial triage through evidence collection, analysis, classification, and recommended response actions.
+
+### 2. Phishing Investigation
+
+Investigated a simulated phishing incident involving:
+
+- Suspicious sender domain
+- Malicious URL
+- Fake login page
+- Credential submission
+- Suspicious authentication activity
+
+Determined that the incident represented likely credential compromise.
+
+### 3. Authentication Investigation
+
+Analyzed authentication logs to identify:
+
+- Repeated failed logins
+- Successful authentication
+- Unfamiliar locations
+- Unknown devices
+- Potential account compromise
+
+### 4. Endpoint Investigation
+
+Reviewed endpoint activity following a phishing event and investigated browser activity, credential submission, and subsequent authentication events.
+
+## 🧠 Investigation Workflow
+
+```text
+Alert
+  ↓
+Triage
+  ↓
+Collect Evidence
+  ↓
+Investigate Endpoint
+  ↓
+Review Authentication Logs
+  ↓
+Threat Intelligence
+  ↓
+Determine Impact
+  ↓
+MITRE ATT&CK Mapping
+  ↓
+Classify Incident
+  ↓
+Contain / Escalate
+  ↓
+Document
+
+
+
+# Week 11 — Advanced SOC Investigation
+
+## 🎯 Goal
+
+Develop stronger investigation skills by analyzing suspicious activity across multiple security data sources and building a complete incident timeline.
+
+## 📚 Topics Covered
+
+- Advanced alert triage
+- Multi-source log correlation
+- Authentication investigation
+- Endpoint investigation
+- PowerShell analysis
+- Network activity analysis
+- IOC investigation
+- Incident timelines
+- Scope assessment
+- Evidence-based classification
+
+## 🔎 Practical Investigations
+
+### 1. Authentication Investigation
+
+Analyzed authentication activity involving:
+
+- Multiple failed logins
+- Successful authentication
+- Unusual source IPs
+- Unknown devices
+- Suspicious login patterns
+
+Focused on determining whether the activity represented legitimate user behavior or possible account compromise.
+
+### 2. PowerShell Investigation
+
+Investigated suspicious PowerShell activity by reviewing:
+
+- Parent process
+- Command-line activity
+- User
+- Host
+- File creation
+- Network connections
+
+Used the surrounding context to determine whether the PowerShell activity was suspicious.
+
+### 3. Multi-Source Correlation
+
+Correlated evidence from different security sources:
+
+```text
+Authentication Logs
+        +
+Endpoint Telemetry
+        +
+Network Activity
+        +
+Threat Intelligence
+        ↓
+Incident Timeline
+
+
+# Week 12 — Advanced Incident Response
+
+## 🎯 Goal
+
+Develop the ability to investigate multi-stage incidents, determine the scope of a compromise, and recommend appropriate containment and response actions.
+
+## 📚 Topics Covered
+
+- Multi-stage incident investigation
+- Incident response workflow
+- Attack-chain analysis
+- Endpoint compromise
+- Account compromise
+- Lateral movement
+- Persistence
+- IOC investigation
+- Scope determination
+- Containment
+- Evidence preservation
+- Incident documentation
+
+## 🔎 Practical Investigations
+
+### 1. Multi-Stage Incident Investigation
+
+Analyzed a simulated attack chain involving:
+
+```text
+Initial Access
+      ↓
+Execution
+      ↓
+Credential Activity
+      ↓
+Lateral Movement
+      ↓
+Persistence
+      ↓
+Collection
+
+
+
+# Week 13 — Detection Engineering
+
+## 🎯 Goal
+
+Learn how to turn observed attacker behavior into practical SOC detections and improve those detections through testing, tuning, and MITRE ATT&CK mapping.
+
+## 📚 Topics Covered
+
+- Detection engineering
+- KQL detection logic
+- Behavioral detections
+- Brute-force detection
+- PowerShell detection
+- Detection tuning
+- False-positive reduction
+- Regression testing
+- MITRE ATT&CK mapping
+- Detection coverage
+- Detection engineering capstone
+
+## 🔎 Practical Work
+
+### 1. Behavioral Detection
+
+Designed detection logic for suspicious activity involving:
+
+```text
+Office Application
+       ↓
+PowerShell
+       ↓
+Suspicious Command
+       ↓
+File Creation
+       ↓
+External Connection
+
+
+
+
+# Week 14 — Professional SOC Skills & Career Preparation
+
+## 🎯 Goal
+
+Complete the SOC training program by developing professional investigation, threat-hunting, reporting, portfolio, resume, and interview skills.
+
+## 📚 Topics Covered
+
+- Professional SOC investigation
+- Incident reporting
+- IOC investigation
+- Threat hunting
+- Threat-hunting case studies
+- SOC portfolio development
+- Resume preparation
+- LinkedIn preparation
+- Final SOC assessment
+- SOC interview preparation
+
+## 🔎 Practical Work
+
+### 1. Professional SOC Investigation
+
+Practiced documenting investigations using:
+
+- Incident summaries
+- Timelines
+- Evidence
+- IOCs
+- Analysis
+- Impact assessment
+- Classification
+- Recommended actions
+- Final conclusions
+
+Focused on using evidence-based language and separating confirmed facts from assumptions.
+
+### 2. Complete Incident Report
+
+Built a professional incident-report structure:
+
+```text
+Incident Summary
+       ↓
+Incident Details
+       ↓
+Timeline
+       ↓
+Evidence
+       ↓
+IOCs
+       ↓
+Analysis
+       ↓
+Impact Assessment
+       ↓
+Classification
+       ↓
+Recommendations
+       ↓
+Final Conclusion
 
